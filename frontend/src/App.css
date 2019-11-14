@@ -11,32 +11,8 @@ html, body, #root {
   min-height: 100%;
 }
 
-/*HEADER*/
-#wrapper-header{
-  padding: 20px 0;
-  background-color: #232F3E;
-}
-
-  /*NAVIGATION*/
-  #wrapper-header .nav a{
-      color: #ffffff; 
-  }
-
-  #wrapper-header .nav a.disabled{
-      text-decoration: line-through;
-  }
-
-  /*ACTIONS*/
-  #wrapper-header #header-actions{
-      text-align: center;
-  }
-  #wrapper-header #header-actions img{
-      width: 45px;
-      height: auto;
-      color: #ffffff; 
-  }
-  
 body {
+  background: #000 url('./assets/background2.jpg') no-repeat;
   background-size: cover;
   -webkit-font-smoothing: antialiased !important;
 }
