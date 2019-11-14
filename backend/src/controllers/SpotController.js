@@ -26,7 +26,7 @@ module.exports = {
       thumbnail: filename,
       company,
       techs: techs.split(',').map(tech => tech.trim()),
-      price
+      price: parseFloat(price)
     })
 
     return res.json(spot)
